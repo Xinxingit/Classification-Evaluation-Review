@@ -42,7 +42,7 @@
 
    ###### Macro F1 Score:  
 
-    (F1a + F1b + F1c)/3 (Sklearn uses this)
+    Micro F1 = (F1a + F1b + F1c)/3 (Sklearn uses this)
     It’s an simple Arithmetic mean of per-class F1-scores
 
     A second way of calculation (Sokolova paper):
@@ -51,7 +51,7 @@
 
    ###### Weighted-F1 Score:  
    
-    (F1a*n1 + F1b*n2 + F1c*n3)/(n1+n2+n3)
+    Weighted F1 = (F1a*n1 + F1b*n2 + F1c*n3)/(n1+n2+n3)
     Weighted by sample numbers
 
 
@@ -63,8 +63,8 @@
 
    ###### Be cautious with F1 scores
    
-    Why? They assign equal weight to precision and recall.
-    F1 scores do not take into consideration that prediction errors, FP vs. FN may have different implications 
+    They assign equal weights to precision and recall.
+    F1 scores do not take into consideration that prediction errors (FP vs. FN) may have different implications. 
 
 
 ##### MCC: Matthew’s Correlation Coefficient
