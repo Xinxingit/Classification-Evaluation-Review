@@ -4,7 +4,7 @@
 
 
 
- ###### Table 1: Definitions
+ ##### 1: Definitions
 
  | Terms    |   Definitions      | 
  | ---------|:----------------:  |
@@ -17,7 +17,7 @@
 
 
 
-###### Table 2: Accuracy, Precision, Recall, and F1 Score
+##### 2: Accuracy, Precision, Recall, and F1 Score
 
    | Metrics    | Calculations            | Descriptions                                                |                   
    | -----------|:----------------------|:--------------------------------------------------------------|
@@ -31,11 +31,11 @@
 
  
  
-#### F1 score in Multiclass Classifications
+##### 3. F1 score in Multiclass Classifications
 
 ###### A multiclass scenario:
 
-    For example, we have classes: a, b, c
+    classes: a, b, c
     sample number for each class: n1, n2, n3 
     F1 score for each class: F1a, F1b, F1c
 
@@ -67,7 +67,7 @@
     F1 scores do not take into consideration that prediction errors (FP vs. FN) may have different implications. 
 
 
-##### MCC: Matthew’s Correlation Coefficient
+##### 4. MCC: Matthew’s Correlation Coefficient
 
 ![MCC](https://user-images.githubusercontent.com/18686382/70392158-b92b9f80-19aa-11ea-9216-45dba400691d.png)
     
@@ -75,7 +75,7 @@
     "[MCC] takes into account true and false positives and negatives and is generally regarded as a balanced measure which can be used even if the classes are of very different sizes."
 
 
-##### ROC Curve
+##### 5. ROC Curve
 
     ROC(Receiver operating characteristic) is a probability curve and AUC (Area under ROC) represents degree or measure of separability. 
     
