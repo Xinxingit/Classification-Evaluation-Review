@@ -42,7 +42,7 @@
 
    ###### Macro F1 Score:  
 
-    Micro F1 = (F1a + F1b + F1c)/3 (Sklearn uses this)
+    Macro F1 = (F1a + F1b + F1c)/3 (Sklearn uses this)
     It’s a simple arithmetic mean of per-class F1-scores
 
     A second way of calculation (Sokolova paper):
