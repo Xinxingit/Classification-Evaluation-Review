@@ -21,7 +21,7 @@
 
    | Metrics    | Calculations            | Descriptions                                                |                   
    | -----------|:----------------------|:--------------------------------------------------------------|
-   | Accuracy   | (TP+TN)/(TP+FN+FP+FN)  | out of all samples, how many are correctly predicted   | 
+   | Accuracy   | (TP+TN)/(TP+TN+FP+FN)  | out of all samples, how many are correctly predicted   | 
    |            |                        |                                                               |
    | Precision  | TP/(TP+FP)             | out of total predicted positives, how many are actual positive |
    |            |                        |                                                                |
