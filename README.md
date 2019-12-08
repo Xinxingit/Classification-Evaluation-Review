@@ -4,7 +4,7 @@
 
 
 
- ##### 1: Definitions
+ ##### 1.  Definitions
 
  | Terms    |   Definitions      | 
  | ---------|:----------------:  |
@@ -17,7 +17,7 @@
 
 
 
-##### 2: Accuracy, Precision, Recall, and F1 Score
+##### 2.  Accuracy, Precision, Recall, and F1 Score
 
    | Metrics    | Calculations            | Descriptions                                                |                   
    | -----------|:----------------------|:--------------------------------------------------------------|
@@ -84,6 +84,10 @@
     ROC AUC doesn't distinguish the costs of different kinds of errors.
  
 
-###### More information of metrics and scoring of classification models can be found at:
+###### References
  
-         https://scikit-learn.org/stable/modules/model_evaluation.html
+         1. https://scikit-learn.org/stable/modules/model_evaluation.html
+         2. https://towardsdatascience.com/a-tale-of-two-macro-f1s-8811ddcf8f04
+         3. https://www.sciencedirect.com/science/article/pii/S0306457309000259 (Sokova paper)
+         4. other online sources
+         
