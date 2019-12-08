@@ -69,7 +69,7 @@
 
 ##### MCC: Matthew’s Correlation Coefficient
 
-  ![MCC](MCC.png)
+  ![MCC]https://github.com/Xinxingit/MyImages/blob/master/MCC.png
     
     MCC has a range of -1 to 1, with 1 indicating all predictions are correct, -1 indicating all predictions are wrong. 
     "[MCC] takes into account true and false positives and negatives and is generally regarded as a balanced measure which can be used even if the classes are of very different sizes."
